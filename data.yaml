@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['lens_back', 'phone', 'removed_sticker', 'sticker']
+
+roboflow:
+  workspace: daftenp
+  project: camera-lens-detection
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/daftenp/camera-lens-detection/dataset/7
